@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Phone Book</title>
+
+    <style>
+        body{
+            background-color: 	 #077b8a;
+        }
+        ::-webkit-scrollbar{
+            width:0px;
+        }
+        #center_div{
+            background-color: #a2d5c6; 
+            width:40%;
+            margin:auto;
+            height:300px;
+            overflow:auto;
+            border-radius: 20px;
+        }
+        dt{
+            position:sticky;
+            top:0px;
+            height:30px;
+            font-size:large;
+            text-align: center;
+        }
+        dl>div:nth-child(odd)>dt{
+            background-color: #b85042;
+            color:white;
+            margin-bottom: 20px;
+        }
+        dl>div:nth-child(even)>dt{
+            background-color:#e38648;
+            color:white;
+            margin-bottom: 20px;
+        }
+        .fas{
+            font-size:10px;
+            color:rgba(0, 0, 0, 0.637);
+            margin-right: 15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;color:white">Phone Book<i class="fas fa-address-book" style="color:white;margin-left: 15px;font-size: 30px;"></i></h1>
+    <div id="center_div">
+        <dl>
+            <div>
+                <dt>A</dt>
+                <dd><i class="fas fa-id-card-alt"></i>Andrew W.K.
+                <dd><i class="fas fa-phone-alt"></i>+91 385 729 6093</dd>
+                <hr>
+                <dd><i class="fas fa-id-card-alt"></i>Apparat
+                <dd><i class="fas fa-phone-alt"></i> +91 385 894 5646</dd>
+                <hr>
+                <dd><i class="fas fa-id-card-alt"></i>Arcade Fire
+                <dd><i class="fas fa-phone-alt"></i>  +91 385 894 5646 </dd>
+                <hr>
+                <dd><i class="fas fa-id-card-alt"></i>At The Drive-In
+                <dd><i class="fas fa-phone-alt"></i>  +91 385 271 7781 </dd>
+                <hr>
+                <dd><i class="fas fa-id-card-alt"></i>Aziz Ansari
+                <dd><i class="fas fa-phone-alt"></i> +91 385 239 8295  </dd>
+                </dd>
+            </div>
+            <div>
+                <dt>C</dt>
+                 <dd><i class="fas fa-id-card-alt"></i>Chromeo
+                <dd><i class="fas fa-phone-alt"></i>  +91 385 943 9362 </dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>Common
+                <dd><i class="fas fa-phone-alt"></i>   +41 33 630 2558</dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>Converge
+                <dd><i class="fas fa-phone-alt"></i>  +41 33 814 8349 </dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>Crystal Castles
+                <dd><i class="fas fa-phone-alt"></i>  +41 33 437 7415 </dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>Cursive
+                <dd><i class="fas fa-phone-alt"></i>  +41 33 243 1465 </dd>
+                <hr>
+            </div>
+            <div>
+                <dt>E</dt>
+                 <dd><i class="fas fa-id-card-alt"></i>Explosions In The Sky
+                <dd><i class="fas fa-phone-alt"></i> +64 3 055 6548  </dd>
+            </div>
+            <div>
+                <dt>T</dt>
+                 <dd><i class="fas fa-id-card-alt"></i>Ted Leo & The Pharmacists
+                <dd><i class="fas fa-phone-alt"></i>  +64 3 805 3936 </dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>T-Pain
+                <dd><i class="fas fa-phone-alt"></i>  +64 3 088 5995 </dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>Thrice
+                <dd><i class="fas fa-phone-alt"></i> +64 3 623 9675  </dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>TV On The Radio
+                <dd><i class="fas fa-phone-alt"></i>+64 3 101 2137   </dd>
+                <hr>
+                 <dd><i class="fas fa-id-card-alt"></i>Two Gallants
+                <dd><i class="fas fa-phone-alt"></i> +64 3 623 9675  </dd>
+                <hr>
+            </div>
+          </dl>
+    </div>
+</body>
+</html>
