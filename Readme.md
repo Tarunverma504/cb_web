@@ -7,5 +7,5 @@
 # Assignment - 2
 * Phone Book
 
-[Deployed Here]("https://quizzical-neumann-1daa80.netlify.app/")
+[Deployed Here](https://quizzical-neumann-1daa80.netlify.app/)
 -----
