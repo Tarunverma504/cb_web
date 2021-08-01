@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1e1f1f;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #111111;
+    border-bottom: 3px solid #ff00aa;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    min-width:400px;
+    justify-content: space-around;
+    font-weight:bold;
+    font-size:1.2rem;
+    align-items: center;
+    width:70%;
+    cursor: pointer;
+    
+    /* border:2px solid white; */
+    
+}
+
+nav #title{
+    text-decoration: none;
+    color:white;
+    font-size: 2em;
+    text-shadow:5px 6px 7px #ff00aa;
+}
+
+nav a{
+    text-decoration: none;
+    color:aliceblue;
+    padding:13px 0px;
+}
+
+#dash{
+    width:100%;
+    height:400px;
+    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("./images/photo-1508700115892-45ecd05ae2ad.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100vw 100vh ;
+    animation: changeimage 15s infinite linear;
+     transition-timing-function: ease-in; 
+}
+@keyframes changeimage {
+    0%{    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("./images/photo-1508700115892-45ecd05ae2ad.jpg"); 
+    }
+    25%{    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("./images/alexander-popov-hTv8aaPziOQ-unsplash.jpg"); 
+    }
+    50%{    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("./images/gabriel-bassino-zEawlLdVloo-unsplash.jpg"); 
+    }
+    75%{    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("./images/karim-manjra-cW3nDFVpi10-unsplash.jpg"); 
+    }
+    100%{    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("./images/melanie-van-leeuwen-QA-qQfWJM0E-unsplash.jpg"); 
+    }
+    
+
+  }
+h1{
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    text-decoration:underline;
+    text-decoration-color: #6200fffd;
+}
+.container{
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    width:90vw;
+    margin:30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.playlist-conatiner figure{
+    background-color: #040508;
+    width:250px;
+    color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow:2px 2px 7px #6200fffd;
+    
+}
+.Latest_music-conatiner figure {
+    background-color: #040508;
+    width:250px;
+    color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow:2px 2px 7px aqua;
+}
+.Recommended-conatiner figure{
+    background-color: #040508;
+    width:250px;
+    color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow:2px 2px 7px chartreuse;
+}
+figure img{
+    height:200px;
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+}
+.playlist-conatiner figcaption button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #9344b3d5;
+    border-radius: 5px;
+    color:#9344b3d5;
+    background-color: transparent;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.playlist-conatiner figcaption button:hover{
+    background-color:#2e0a97 ;
+    border:1px solid white;
+    color:white;
+    /* box-shadow: 3px 5px 6px #9344b3d5; */
+}
+
+.Latest_music-conatiner figcaption button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    color:aqua;
+    background-color: transparent;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.Latest_music-conatiner figcaption button:hover{
+    background-color:white ;
+    border:1px solid white;
+    color:black;
+    /* box-shadow: 3px 5px 6px #9344b3d5; */
+}
+
+.Recommended-conatiner figcaption button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid chartreuse;
+    border-radius: 5px;
+    color:chartreuse;
+    background-color: transparent;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.Recommended-conatiner figcaption button:hover{
+    background-color:orange ;
+    border:1px solid orange;
+    color:black;
+    /* box-shadow: 3px 5px 6px #9344b3d5; */
+}
+
+
+
+
+
+.playlist-conatiner figcaption button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #9344b3d5;
+    border-radius: 5px;
+    color:#9344b3d5;
+    background-color: transparent;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.contact_us{
+    width: 60%;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact_us input[type="text"],input[type="number"],input[type="email"]{
+    border: 2px solid rgba(255, 166, 0, 0.753);
+    width:20rem;
+    margin:10px auto;
+    height:25px;
+    background-color: transparent;
+    text-decoration: none;
+}
+.contact_us textarea{
+    border: 2px solid rgba(255, 166, 0, 0.753);
+    width:20rem;
+    margin:10px auto;
+    height:100px;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+button[type='submit']{
+    background-color: orange;
+    width:200px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #040508ce;
+    border-top: 3px solid #ff00aa;
+
+}
+.footer_icons{
+    /* background-color: rebeccapurple; */
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: space; */
+    padding:20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.fab{
+    color:grey;
+}
+@media screen and (max-width:620px) {
+    nav,ul{
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+        position:static;
+    }
+    ul{
+        height:155px;
+    }
+    #dash{
+       position: absolute;
+       visibility: hidden;
+    }
+    
+}

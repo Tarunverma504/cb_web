@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <style>
+        body{
+            background-color:#242525;
+        }
+        .parent{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height:90vh;
+        }
+        #btn{
+            width:200px;
+            height:50px;
+            border-radius: 20px;
+            border:2px solid white;
+            color:white;
+            background-color: transparent;
+            font-weight: bold;
+            transition: 2s;
+        }
+        #btn:hover{
+            background-color:#2e0a97 ;
+            border:2px solid #2e0a97;
+            box-shadow: 3px 5px 6px #9344b3d5;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <button id="btn"> Hover Me !!</button>
+    </div>
+</body>
+</html>
