@@ -29,3 +29,8 @@
 
 [Deployed Here](https://dreamy-pike-bf540e.netlify.app)
 
+# Assignment - 7
+* Weather Forcasting App
+
+[Deployed Here](https://brave-bohr-332869.netlify.app/)
+
